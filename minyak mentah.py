@@ -12,5 +12,6 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 
 ############### title ###############
-slit.set_page_config(layout="wide")  
+slit.set_page_config(layout="wide")
+slit.title("Statistik Perolehan Minyak Mentah di Dunia")
 ############### title ###############
