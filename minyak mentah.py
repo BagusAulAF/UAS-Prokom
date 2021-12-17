@@ -15,7 +15,7 @@ st.cache()
 ##Bagus Aulia Ahmad Fahrezi
 ##NIM: 12220108
 ############### title ###############
-st.set_page_config(layout="wide")  # this needs to be the first Streamlit command called
+st.set_page_config(layout="wide")  
 st.title("Statistik Produksi Minyak Mentah Dunia")
 st.markdown("Dirancang oleh Bagus Aulia Ahmad Fahrezi (NIM: 12220108)")
 st.markdown("*Sumber data berasal dari file CSV dan JSON yang telah saya unggah pada GitHub")
