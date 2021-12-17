@@ -81,5 +81,5 @@ x = df.groupby(['kode_negara']).sum().sort_values(by='produksi', ascending = Fal
 y = df.groupby(['kode_negara']).sum().sort_values(by='produksi', ascending = False).produksi[:Bbesar]
 
 fig3,ax3 = plt.subplots()
-ax3.bar(x,y)
+ax3.barh(x,y)
 st.pyplot(fig3)
